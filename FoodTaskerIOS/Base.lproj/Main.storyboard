@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="870" y="813"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurant View Controller-->
         <scene sceneID="2HP-sJ-jIe">
             <objects>
-                <viewController id="rMb-j9-tXm" sceneMemberID="viewController">
+                <viewController id="rMb-j9-tXm" customClass="RestaurantViewController" customModule="FoodTaskerIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8xI-AD-TLy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,6 +199,10 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="rMb-j9-tXm" id="1bN-yd-mMX"/>
+                                    <outlet property="delegate" destination="rMb-j9-tXm" id="Hr6-x5-4fi"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,15 +220,18 @@
                     <navigationItem key="navigationItem" id="BKA-3J-Cyj">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icon_menu_24dp" id="7Wu-xC-bk7"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuBarButton" destination="7Wu-xC-bk7" id="D4i-0d-TtD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBI-FI-jNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="869.60000000000002" y="2307.7961019490258"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Customer Menu Table View Controller-->
         <scene sceneID="3Ea-B1-BT8">
             <objects>
-                <tableViewController id="pko-rF-GD9" sceneMemberID="viewController">
+                <tableViewController id="pko-rF-GD9" customClass="CustomerMenuTableViewController" customModule="FoodTaskerIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="HYv-uO-cP1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -429,6 +436,6 @@
         <image name="splash_screen" width="185" height="110"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nco-xX-k2f"/>
+        <segue reference="DrQ-gG-tA2"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -12,8 +12,9 @@
 		AB64C6D121C87FFD008F8BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB64C6CF21C87FFD008F8BD8 /* Main.storyboard */; };
 		AB64C6D321C87FFF008F8BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB64C6D221C87FFF008F8BD8 /* Assets.xcassets */; };
 		AB64C6D621C87FFF008F8BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB64C6D421C87FFF008F8BD8 /* LaunchScreen.storyboard */; };
-		AB64C6E021C88AF7008F8BD8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6DE21C88AF7008F8BD8 /* SWRevealViewController.m */; };
 		AB64C6E321C8A862008F8BD8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E221C8A862008F8BD8 /* RestaurantViewController.swift */; };
+		AB64C6E721C8C6AD008F8BD8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E521C8C6AD008F8BD8 /* SWRevealViewController.m */; };
+		AB64C6E921C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +25,11 @@
 		AB64C6D221C87FFF008F8BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB64C6D521C87FFF008F8BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB64C6D721C87FFF008F8BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB64C6DD21C88AF6008F8BD8 /* FoodTaskerIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodTaskerIOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		AB64C6DE21C88AF7008F8BD8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		AB64C6DF21C88AF7008F8BD8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AB64C6E221C8A862008F8BD8 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		AB64C6E421C8C6AB008F8BD8 /* FoodTaskerIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodTaskerIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB64C6E521C8C6AD008F8BD8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AB64C6E621C8C6AD008F8BD8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				AB64C6D421C87FFF008F8BD8 /* LaunchScreen.storyboard */,
 				AB64C6D721C87FFF008F8BD8 /* Info.plist */,
 				AB64C6E221C8A862008F8BD8 /* RestaurantViewController.swift */,
+				AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */,
 			);
 			path = FoodTaskerIOS;
 			sourceTree = "<group>";
@@ -75,9 +78,9 @@
 		AB64C6E121C88B1A008F8BD8 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				AB64C6DF21C88AF7008F8BD8 /* SWRevealViewController.h */,
-				AB64C6DE21C88AF7008F8BD8 /* SWRevealViewController.m */,
-				AB64C6DD21C88AF6008F8BD8 /* FoodTaskerIOS-Bridging-Header.h */,
+				AB64C6E621C8C6AD008F8BD8 /* SWRevealViewController.h */,
+				AB64C6E521C8C6AD008F8BD8 /* SWRevealViewController.m */,
+				AB64C6E421C8C6AB008F8BD8 /* FoodTaskerIOS-Bridging-Header.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -157,7 +160,8 @@
 				AB64C6CE21C87FFD008F8BD8 /* ViewController.swift in Sources */,
 				AB64C6E321C8A862008F8BD8 /* RestaurantViewController.swift in Sources */,
 				AB64C6CC21C87FFD008F8BD8 /* AppDelegate.swift in Sources */,
-				AB64C6E021C88AF7008F8BD8 /* SWRevealViewController.m in Sources */,
+				AB64C6E921C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift in Sources */,
+				AB64C6E721C8C6AD008F8BD8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +245,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -295,6 +300,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -314,7 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirafwan.FoodTaskerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerIOS/Library/FoodTaskerIOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,7 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirafwan.FoodTaskerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerIOS/Library/FoodTaskerIOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
