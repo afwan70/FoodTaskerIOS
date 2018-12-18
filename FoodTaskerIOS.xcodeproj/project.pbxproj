@@ -16,6 +16,7 @@
 		AB64C6E721C8C6AD008F8BD8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E521C8C6AD008F8BD8 /* SWRevealViewController.m */; };
 		AB64C6E921C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */; };
 		AB64C6EB21C92E0C008F8BD8 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */; };
+		AB64C6ED21C93E26008F8BD8 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AB64C6E621C8C6AD008F8BD8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
 		AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				AB64C6E221C8A862008F8BD8 /* RestaurantViewController.swift */,
 				AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */,
 				AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */,
+				AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */,
 			);
 			path = FoodTaskerIOS;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB64C6CE21C87FFD008F8BD8 /* ViewController.swift in Sources */,
+				AB64C6ED21C93E26008F8BD8 /* MealDetailsViewController.swift in Sources */,
 				AB64C6E321C8A862008F8BD8 /* RestaurantViewController.swift in Sources */,
 				AB64C6EB21C92E0C008F8BD8 /* MealListTableViewController.swift in Sources */,
 				AB64C6CC21C87FFD008F8BD8 /* AppDelegate.swift in Sources */,
