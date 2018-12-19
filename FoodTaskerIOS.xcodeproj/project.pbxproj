@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB03800B21CA81AE00CE01A7 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */; };
+		AB03800E21CA831D00CE01A7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB03800D21CA831D00CE01A7 /* MapKit.framework */; };
 		AB64C6CC21C87FFD008F8BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6CB21C87FFD008F8BD8 /* AppDelegate.swift */; };
 		AB64C6CE21C87FFD008F8BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6CD21C87FFD008F8BD8 /* ViewController.swift */; };
 		AB64C6D121C87FFD008F8BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB64C6CF21C87FFD008F8BD8 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		AB03800D21CA831D00CE01A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AB64C6C821C87FFD008F8BD8 /* FoodTaskerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTaskerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB64C6CB21C87FFD008F8BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB64C6CD21C87FFD008F8BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,17 +45,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB03800E21CA831D00CE01A7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB03800C21CA831D00CE01A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB03800D21CA831D00CE01A7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB64C6BF21C87FFD008F8BD8 = {
 			isa = PBXGroup;
 			children = (
 				AB64C6CA21C87FFD008F8BD8 /* FoodTaskerIOS */,
 				AB64C6C921C87FFD008F8BD8 /* Products */,
+				AB03800C21CA831D00CE01A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +91,7 @@
 				AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */,
 				AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */,
 				AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */,
+				AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */,
 			);
 			path = FoodTaskerIOS;
 			sourceTree = "<group>";
@@ -165,6 +180,7 @@
 			files = (
 				AB64C6CE21C87FFD008F8BD8 /* ViewController.swift in Sources */,
 				AB64C6ED21C93E26008F8BD8 /* MealDetailsViewController.swift in Sources */,
+				AB03800B21CA81AE00CE01A7 /* TrayViewController.swift in Sources */,
 				AB64C6E321C8A862008F8BD8 /* RestaurantViewController.swift in Sources */,
 				AB64C6EB21C92E0C008F8BD8 /* MealListTableViewController.swift in Sources */,
 				AB64C6CC21C87FFD008F8BD8 /* AppDelegate.swift in Sources */,
