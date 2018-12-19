@@ -599,6 +599,9 @@
                                 <state key="normal" title="ADD PAYMENT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sWd-5l-pJg" kind="show" id="ihb-U5-G1j"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHa-H6-Izf">
                                 <rect key="frame" x="5" y="389" width="365" height="210"/>
@@ -650,6 +653,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9EW-ZT-HPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3445.5999999999999" y="2307.7961019490258"/>
+        </scene>
+        <!--Payment View Controller-->
+        <scene sceneID="wms-G3-R6m">
+            <objects>
+                <viewController id="sWd-5l-pJg" customClass="PaymentViewController" customModule="FoodTaskerIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qm1-hJ-FiT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAj-u0-toN" customClass="STPPaymentCardTextField">
+                                <rect key="frame" x="37.5" y="86" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="h7S-d6-dyw"/>
+                                    <constraint firstAttribute="height" constant="50" id="xtk-xL-GJB"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4np-B7-HtZ">
+                                <rect key="frame" x="8" y="609" width="359" height="50"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.69019607839999997" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4B4-J6-ouA"/>
+                                </constraints>
+                                <state key="normal" title="PLACE ORDER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LAj-u0-toN" firstAttribute="centerX" secondItem="qm1-hJ-FiT" secondAttribute="centerX" id="NLl-jK-TBB"/>
+                            <constraint firstItem="2HT-fv-fcr" firstAttribute="bottom" secondItem="4np-B7-HtZ" secondAttribute="bottom" constant="8" id="a84-Ye-wcD"/>
+                            <constraint firstItem="2HT-fv-fcr" firstAttribute="trailing" secondItem="4np-B7-HtZ" secondAttribute="trailing" constant="8" id="dHe-RI-076"/>
+                            <constraint firstItem="4np-B7-HtZ" firstAttribute="leading" secondItem="2HT-fv-fcr" secondAttribute="leading" constant="8" id="kW4-Hb-jTh"/>
+                            <constraint firstItem="LAj-u0-toN" firstAttribute="top" secondItem="2HT-fv-fcr" secondAttribute="top" constant="22" id="qNg-5S-uKz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2HT-fv-fcr"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardTextField" destination="LAj-u0-toN" id="tw0-uR-iGG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVw-cy-11y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4334" y="2308"/>
         </scene>
         <!--Customer Menu Table View Controller-->
         <scene sceneID="3Ea-B1-BT8">

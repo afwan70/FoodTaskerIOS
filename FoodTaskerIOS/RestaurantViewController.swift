@@ -14,15 +14,13 @@ class RestaurantViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menuBarButton.target = self.revealViewController()
-        menuBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-
+         if self.revealViewController() != nil {
+            
+            menuBarButton.target = self.revealViewController()
+            menuBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
     }
-    
-
-  
-
 }
 
 extension RestaurantViewController : UITableViewDelegate, UITableViewDataSource {
