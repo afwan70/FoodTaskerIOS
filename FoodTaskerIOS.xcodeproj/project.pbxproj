@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		526541401F9E60CB71006E93 /* Pods_FoodTaskerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94C98112E3D70E12A9D1AAA /* Pods_FoodTaskerIOS.framework */; };
+		69AD51B0D768CA80A135407E /* Pods_FoodTaskerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E8FEC686D06C24235B333C /* Pods_FoodTaskerIOS.framework */; };
 		AB03800B21CA81AE00CE01A7 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */; };
 		AB03800E21CA831D00CE01A7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB03800D21CA831D00CE01A7 /* MapKit.framework */; };
 		AB03801021CA8E1200CE01A7 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03800F21CA8E1200CE01A7 /* PaymentViewController.swift */; };
@@ -22,11 +22,14 @@
 		AB64C6E921C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */; };
 		AB64C6EB21C92E0C008F8BD8 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */; };
 		AB64C6ED21C93E26008F8BD8 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */; };
+		AB7EFA6521CB24FB0070D30C /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7EFA6421CB24FB0070D30C /* FBManager.swift */; };
+		AB7EFA6721CB2C8B0070D30C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7EFA6621CB2C8B0070D30C /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50B89FF604719822E8111584 /* Pods-FoodTaskerIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerIOS/Pods-FoodTaskerIOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8AC804D0BFC3D134E5C31200 /* Pods-FoodTaskerIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerIOS/Pods-FoodTaskerIOS.release.xcconfig"; sourceTree = "<group>"; };
+		1365429035B61FBD6481338E /* Pods-FoodTaskerIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerIOS/Pods-FoodTaskerIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		23E8FEC686D06C24235B333C /* Pods_FoodTaskerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTaskerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6548A87D490232C56BBDB340 /* Pods-FoodTaskerIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerIOS/Pods-FoodTaskerIOS.release.xcconfig"; sourceTree = "<group>"; };
 		AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
 		AB03800D21CA831D00CE01A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AB03800F21CA8E1200CE01A7 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +48,9 @@
 		AB64C6E821C8CCB4008F8BD8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
 		AB64C6EA21C92E0C008F8BD8 /* MealListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
 		AB64C6EC21C93E26008F8BD8 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
-		C94C98112E3D70E12A9D1AAA /* Pods_FoodTaskerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTaskerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7EFA6421CB24FB0070D30C /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		AB7EFA6621CB2C8B0070D30C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB7EFA6821CB3BEA0070D30C /* FoodTaskerIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodTaskerIOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,18 +59,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB03800E21CA831D00CE01A7 /* MapKit.framework in Frameworks */,
-				526541401F9E60CB71006E93 /* Pods_FoodTaskerIOS.framework in Frameworks */,
+				69AD51B0D768CA80A135407E /* Pods_FoodTaskerIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3EF4A44D13F93990816946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1365429035B61FBD6481338E /* Pods-FoodTaskerIOS.debug.xcconfig */,
+				6548A87D490232C56BBDB340 /* Pods-FoodTaskerIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB03800C21CA831D00CE01A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				AB03800D21CA831D00CE01A7 /* MapKit.framework */,
-				C94C98112E3D70E12A9D1AAA /* Pods_FoodTaskerIOS.framework */,
+				23E8FEC686D06C24235B333C /* Pods_FoodTaskerIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,7 +90,7 @@
 				AB64C6CA21C87FFD008F8BD8 /* FoodTaskerIOS */,
 				AB64C6C921C87FFD008F8BD8 /* Products */,
 				AB03800C21CA831D00CE01A7 /* Frameworks */,
-				ABB403CD8C203D840FDC07CD /* Pods */,
+				2D3EF4A44D13F93990816946 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +105,7 @@
 		AB64C6CA21C87FFD008F8BD8 /* FoodTaskerIOS */ = {
 			isa = PBXGroup;
 			children = (
+				AB7EFA6821CB3BEA0070D30C /* FoodTaskerIOS.entitlements */,
 				AB64C6E121C88B1A008F8BD8 /* Library */,
 				AB64C6CB21C87FFD008F8BD8 /* AppDelegate.swift */,
 				AB64C6CD21C87FFD008F8BD8 /* ViewController.swift */,
@@ -105,6 +120,8 @@
 				AB03800A21CA81AE00CE01A7 /* TrayViewController.swift */,
 				AB03800F21CA8E1200CE01A7 /* PaymentViewController.swift */,
 				AB03801121CAA91F00CE01A7 /* OrderViewController.swift */,
+				AB7EFA6421CB24FB0070D30C /* FBManager.swift */,
+				AB7EFA6621CB2C8B0070D30C /* LoginViewController.swift */,
 			);
 			path = FoodTaskerIOS;
 			sourceTree = "<group>";
@@ -119,15 +136,6 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		ABB403CD8C203D840FDC07CD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				50B89FF604719822E8111584 /* Pods-FoodTaskerIOS.debug.xcconfig */,
-				8AC804D0BFC3D134E5C31200 /* Pods-FoodTaskerIOS.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,11 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB64C6DA21C87FFF008F8BD8 /* Build configuration list for PBXNativeTarget "FoodTaskerIOS" */;
 			buildPhases = (
-				36F8EEDDD6D5C09A1F70E448 /* [CP] Check Pods Manifest.lock */,
+				54C9C7645234CD3FFB09B029 /* [CP] Check Pods Manifest.lock */,
 				AB64C6C421C87FFD008F8BD8 /* Sources */,
 				AB64C6C521C87FFD008F8BD8 /* Frameworks */,
 				AB64C6C621C87FFD008F8BD8 /* Resources */,
-				5678215A321C325990F9B526 /* [CP] Embed Pods Frameworks */,
+				1D03B9DC37693A030CACDB98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +171,11 @@
 					AB64C6C721C87FFD008F8BD8 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -198,25 +211,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36F8EEDDD6D5C09A1F70E448 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FoodTaskerIOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5678215A321C325990F9B526 /* [CP] Embed Pods Frameworks */ = {
+		1D03B9DC37693A030CACDB98 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,6 +241,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTaskerIOS/Pods-FoodTaskerIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		54C9C7645234CD3FFB09B029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTaskerIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7EFA6721CB2C8B0070D30C /* LoginViewController.swift in Sources */,
 				AB64C6CE21C87FFD008F8BD8 /* ViewController.swift in Sources */,
+				AB7EFA6521CB24FB0070D30C /* FBManager.swift in Sources */,
 				AB03801221CAA91F00CE01A7 /* OrderViewController.swift in Sources */,
 				AB64C6ED21C93E26008F8BD8 /* MealDetailsViewController.swift in Sources */,
 				AB03800B21CA81AE00CE01A7 /* TrayViewController.swift in Sources */,
@@ -339,10 +354,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -395,9 +411,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -408,14 +425,15 @@
 		};
 		AB64C6DB21C87FFF008F8BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50B89FF604719822E8111584 /* Pods-FoodTaskerIOS.debug.xcconfig */;
+			baseConfigurationReference = 1365429035B61FBD6481338E /* Pods-FoodTaskerIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodTaskerIOS/FoodTaskerIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6C4MUXVT6;
 				INFOPLIST_FILE = FoodTaskerIOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,14 +449,15 @@
 		};
 		AB64C6DC21C87FFF008F8BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AC804D0BFC3D134E5C31200 /* Pods-FoodTaskerIOS.release.xcconfig */;
+			baseConfigurationReference = 6548A87D490232C56BBDB340 /* Pods-FoodTaskerIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodTaskerIOS/FoodTaskerIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6C4MUXVT6;
 				INFOPLIST_FILE = FoodTaskerIOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
