@@ -702,10 +702,10 @@
             </objects>
             <point key="canvasLocation" x="4334" y="2308"/>
         </scene>
-        <!--View Controller-->
+        <!--Order View Controller-->
         <scene sceneID="w3H-tu-wLK">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="dek-o3-T3Q" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="dek-o3-T3Q" customClass="OrderViewController" customModule="FoodTaskerIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mtt-HX-CLA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -798,6 +798,9 @@
                     <navigationItem key="navigationItem" id="eIh-NI-qVJ">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icon_menu_24dp" id="PKo-SS-rHT"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuBarButton" destination="PKo-SS-rHT" id="wM5-SV-mr8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yE3-Xb-rZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -941,7 +944,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.14117647059999999" green="0.12941176469999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="A3y-2P-CIa" kind="custom" trigger="accessoryAction" customClass="SWRevealViewControllerSeguePushController" id="gC4-wr-hxQ"/>
+                                            <segue destination="A3y-2P-CIa" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="eJi-n6-hC1"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="BMv-CP-9mZ">
@@ -974,6 +977,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.14117647059999999" green="0.12941176469999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="EHz-ef-lBP"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -1054,7 +1060,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="DrQ-gG-tA2"/>
-        <segue reference="aef-rv-4hY"/>
-        <segue reference="r6X-Qm-Kr3"/>
+        <segue reference="pZg-8k-0go"/>
+        <segue reference="WsJ-tJ-4kw"/>
     </inferredMetricsTieBreakers>
 </document>
